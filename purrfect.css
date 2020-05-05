@@ -1,0 +1,45 @@
+
+html{
+	height: 100%;
+	width: 100%;
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+
+	background-image: url(https://images.unsplash.com/photo-1588179772154-0b097d0cb393?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80);
+	
+	background-position: center; 
+	background-size: cover;
+
+}
+
+
+#main{
+	
+	color: white;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+	text-shadow: 
+				 0px 4px 20px rgb(100,0,0),
+				 0px 18px 23px orange;
+
+				 /* offset-x | offset-y | blur-radius | color */
+				 /*When more than one shadow is given, shadows are applied front-to-back, with the first-specified shadow on top.*/
+
+}
+
+h1{
+	font-weight: 700;
+	font-size: 5em;
+	
+}
+
+
+hr{
+	width: 400px;
+	border-top: 1px solid #f8f8f8;
+	border-bottom: 1px solid rgba(150,0,0,0.5); /*basically giving a shadow to bottom*/
+
+}
